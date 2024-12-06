@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+#image{
+ padding: 25px;
+ width:120px ;
+ height:150px;
+}
+#prices{
+    padding: 30px 20px 60px 20px;
+}
+#pricestyle{
+    display: inline;
+    padding-right: 20px;
+}
+li::marker{
+    color: gray;
+}
